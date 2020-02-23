@@ -1,0 +1,16 @@
+scan 1
+battery_check 20
+correct_ip
+1=0TQDG41EDBN166
+
+
+*>mon
+*>takeoff
+sync 40
+
+1>curve 50 50 50 130 130 130 60 m2
+sync 40
+
+1>curve 50 50 50 130 130 130 60 m1
+
+*>land
